@@ -26,7 +26,7 @@ export function DetailsDrawer({ node, edge, info, learningMode, onClose }: Detai
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 48 }}
           transition={{ type: "spring", stiffness: 260, damping: 26 }}
-          className="fixed bottom-3 left-3 right-3 top-3 z-50 flex overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950/95 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:bottom-4 sm:left-auto sm:right-4 sm:top-4 sm:w-[min(92vw,420px)]"
+          className="fixed bottom-3 left-3 right-3 top-3 z-50 flex flex-col overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950/95 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:bottom-4 sm:left-auto sm:right-4 sm:top-4 sm:w-[min(92vw,420px)]"
           dir="ltr"
         >
           <div className={cn("relative border-b p-5", category.border)}>
